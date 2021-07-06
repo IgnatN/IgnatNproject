@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    position: relative;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.nav-item > span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-item:not(.not):hover {
+    background-color: grey;
+}
+
+.nav {
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.membership {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.hover-menu {
+    display: none;
+    position:absolute ;
+    left: -150px;
+    background-color: rgb(246, 255, 255);
+    height: 300px;
+    width: 250px;
+    top: 45px;
+    
+}
+.watch:hover >  .hover-menu {
+    display: block;
+    align-self:center;
+}
+
+
+
+
+.watch-item {
+    display: block;
+    padding: 15px ;
+    position:static;
+    
+    
+}
+.watch-item:hover {
+    display: block;
+    background-color: rgb(253, 227, 227);
+    align-self: left;
+    
+}
+.watch-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0px;
+}
+main {
+    margin-top: 70px;
+    border: 1px solid black ;
+    height: 350px;
+    background-color:black ;
+}
+.div-tedx {
+    border: 1px solid black;
+    right: 100px;
+    width: 100px;
+    height: 50px;
+    margin-left: 350px;
+    margin-top: 75px;
+    padding: 2px;
+}
+.span-ted {
+    margin-left: 10px;
+    font-size: xx-large;
+    color: red;
+    font-weight: bold;
+    display: inline-flex;
+    padding-top: 6px;
+    
+}
+.span-x {
+    display: inline-flex;
+    font-weight: bold;
+    color: red;
+    font-size: xx-large;
+    margin-left: -6px;
+    vertical-align: super; 
+}
+.rosevalley {
+    display: flex;
+    margin-left: 450px;
+    height: 50px;
+    margin-top: -51px;
+    font-size: xxx-large ;
+    width: 380px;
+    color: white;
+}
+.independently {
+    color: white ;
+}
+.independently-x {
+    margin-left: 350px;
+    color:red ;
+}
+.theme-education {
+    display: flex;
+    margin-left: 350px;
+    font-size: xxx-large;
+    font-weight: bold;
+    color: white;
+}
+.date-event {
+    display: inline-grid;
+    margin-left: 350px;
+    margin-top: 35px;
+    color: white ;
+}
+.utc {
+    margin-top: 0px ;
+}
+.january {
+    font-weight: bold;
+}
+.place {
+    display: inline-block;
+    margin-left: 150px;
+    vertical-align: bottom;
+    margin-bottom: 23px;
+    color: white ;
+    height: 50px;
+    width: 140px;
+    font-weight: bold ;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.div-grid {
+display: grid ;
+grid-template-columns: 250px auto 250px;
+grid-gap: 1em ;
+max-width: 1300px ;
+
+}
+.firstxt {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.59091;
+    font-weight: 200 ;
+    letter-spacing: 0.03em ;
+}
+.tedevent {
+    color: black;
+}
+
+  
