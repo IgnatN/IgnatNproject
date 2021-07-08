@@ -11,7 +11,8 @@
 
 <body>
     <header>
-        <a href="https://www.ted.com/"><img src="./logo.png" alt="logo"></a>
+        <a href=""><img src="./logo.png" alt="logo"></a>
+        <p id="time"></p>
         <nav class="nav">
             <div class="nav-item watch"><span>watch</span>
                 <div class="hover-menu">
@@ -32,8 +33,16 @@
             <div class="nav-item membership not"><span>membership</span></div>
             <div class="nav-item sign-in not"><span>sign in</span></div>
         </nav>
-
     </header>
+    <h1>Converter</h1>
+    <p>
+        <label>Lei</label>
+        <input type="number" id="inputdol" placeholder="MDL" oninput="moneyConverter(this.value)"
+            onchange="moneyConverter(this.value)">
+    </p>
+    <p>USD: <span id="usd" class="output"></span></p>
+    <p>EUR: <span id="eur" class="output"></span></p>
+
     <main>
         <div class="big-div">
             <div class="div-tedx">
@@ -87,10 +96,10 @@
         </div>
 
 
+
     </main>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="index2.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
