@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0px;
 }
 
@@ -76,9 +76,11 @@ header {
 
 ul {
     padding: 0px;
+    color: rgb(224, 192, 192);
 }
+
 main {
-    margin-top: 70px;
+    margin-top: 20px;
     border: 1px solid black ;
     height: 350px;
     background-color:black ;
