@@ -17,7 +17,7 @@ function moneyConverter(value) {
     for (let i = 0; i < output.length; i++) {
         for (let currency in converterValue) {
             if (currency === output[i].id.toUpperCase()) {
-                output[i].innerHTML = value / converterValue[currency];
+                output[i].innerHTML = Math.round((value / converterValue[currency]) * 100) / 100;
             }
         }
     }
