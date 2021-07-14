@@ -79,10 +79,12 @@ ul {
     color: rgb(224, 192, 192);
 }
 .converter{
+    margin-left: 1px;
     width: 30%;
     
 }
 #inputdol {
+	margin-left: 1.5%;
     background-color: #eee;
 	vertical-align: top;
 	outline: none;
