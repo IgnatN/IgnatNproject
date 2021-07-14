@@ -1,4 +1,4 @@
- body {
+body {
     margin: 0px;
 }
 
@@ -78,7 +78,57 @@ ul {
     padding: 0px;
     color: rgb(224, 192, 192);
 }
+.converter{
+    width: 30%;
+    
+}
+#inputdol {
+    background-color: #eee;
+	vertical-align: top;
+	outline: none;
+	padding: 0;
+	height: 20px;
+	line-height: 20px;    
+	text-indent: 5px;
+	display: inline-block;
+	width: 100px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	border-radius: 1px;
+}
+#usd { 
+    background-color: #eee;
+	vertical-align: top;
+	outline: none;
+	padding: 0;
+	height: 20px;
+	line-height: 20px;    
+	text-indent: 5px;
+	display: inline-block;
+	width: 100px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	border-radius: 1px;
 
+}
+#eur {
+    background-color: #eee;
+	vertical-align: top;
+	outline: none;
+	padding: 0;
+	height: 20px;
+	line-height: 20px;    
+	text-indent: 5px;
+	display: inline-block;
+	width: 100px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	border-radius: 1px;
+
+}
 main {
     margin-top: 20px;
     border: 1px solid black ;
@@ -95,7 +145,6 @@ main {
     padding: 2px;
 }
 .span-ted {
-    margin-left: 10px;
     font-size: xx-large;
     color: red;
     font-weight: bold;
@@ -115,7 +164,7 @@ main {
     display: flex;
     margin-left: 450px;
     height: 50px;
-    margin-top: -51px;
+    margin-top: -60px;
     font-size: xxx-large ;
     width: 380px;
     color: white;
